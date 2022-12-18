@@ -33,48 +33,24 @@ theme:
     repo: fontawesome/brands/github
 edit_uri: edit/main/docs # 编辑按钮跳转的链接
 ## [top-right corner]
-repo_url: https://github.com/Yang-Xijie/yang-xijie.github.io # 右上角点击跳转的链接
-repo_name: yang-xijie.github.io # 右上角的名字
+repo_url: https://github.com/ # 右上角点击跳转的链接
+repo_name: webming19.github.io # 右上角的名字
 ## [bottom-left corner]
-copyright: Copyright &copy; 2022 杨希杰 # 左下角的版权声明
+copyright: Copyright &copy; 2022 WebMing # 左下角的版权声明
 ## [bottom-right corner]
 extra:
   social: # icons
     - icon: fontawesome/brands/bilibili
-      link: https://space.bilibili.com/24502827
-      name: Bilibili | 我不是药神 # 鼠标悬浮提示
+      link: https://bilibili.com
+      name: Bilibili | B站 # 鼠标悬浮提示
     - icon: fontawesome/brands/github
-      link: https://github.com/Yang-Xijie
-      name: GitHub | Yang-Xijie
+      link: https://github.com/
+      name: GitHub | WebMing
 
 # [Navigation]
 nav:
   - 博客:
       - BLOG/index.md
-      - CG:
-          - Computer Graphics: BLOG/ComputerGraphics/cg-notes.md
-          - GAMES101: BLOG/ComputerGraphics/games101.md
-          - Blender: BLOG/ComputerGraphics/blender-notes.md
-      - 游戏:
-          - Unity: BLOG/Game/unity-notes.md
-          - UE: BLOG/Game/ue-notes.md
-          - 定义: BLOG/Game/what-is-game.md
-          - 2D和3D: BLOG/Game/2d-vs-3d.md
-      - 日语:
-          - 笔记2/3: BLOG/Japanese/notes-2202-2203.md
-          - 笔记4: BLOG/Japanese/notes-2204.md
-          - 笔记5: BLOG/Japanese/notes-2205.md
-          - 动词整理: BLOG/Japanese/verb.md
-          - 形容词整理: BLOG/Japanese/adj.md
-          - 名词整理: BLOG/Japanese/noun.md
-          - 语法整理: BLOG/Japanese/grammar.md
-          - 作文: BLOG/Japanese/essays.md
-          - たんたんめん推特: BLOG/Japanese/tantanmen-translation.md
-          - 中文日语: BLOG/Japanese/chinese.md
-      - OS:
-          - TODO ExOS设计: BLOG/OS/os-design.md
-          - fork/exec/spawn: BLOG/OS/fork-exec-spawn.md
-          - fork例: BLOG/OS/fork-example.md
       - Linux:
           - vim: BLOG/Linux/vim.md
           - tmux: BLOG/Linux/tmux.md
@@ -87,47 +63,17 @@ nav:
           - Mac与Android的文件传输: BLOG/macOS/sharing-mac-android.md
           - MAD制作流程: BLOG/macOS/mad.md
           - OBS开直播: BLOG/macOS/stream.md
-      - UOS:
-          - 相关链接: BLOG/UOS/links.md
-      - Apple:
-          - iPad购买建议: BLOG/Apple/ipad-recommend.md
-          - Mac购买建议: BLOG/Apple/mac-recommend.md
-      - GitHub:
-          - 镜像到Gitee: BLOG/GitHub/mirror.md
       - Markdown:
           - Markdown语法初学习: BLOG/Markdown/grammars.md
           - TODO ExMark规范: BLOG/Markdown/ExMark-spec-zh.txt
           - MkDocs静态网站构建: BLOG/Markdown/mkdocs-site.md
           - mdBook静态网站构建: BLOG/Markdown/mdbook-site.md
           - GitHub Pages简介: BLOG/Markdown/github-pages.md
-      - 电子工程:
-          - Verilog仿真: BLOG/ElectronicEngineering/verilog-simulation.md
-          - 各种存储器间的关系: BLOG/ElectronicEngineering/storage.md
-          - 二阶线性时不变电路: BLOG/ElectronicEngineering/rlc.md
-          - yosys尝试: BLOG/ElectronicEngineering/yosys-try.md
       - 基础:
-          - 数学:
-              - Latex简易符号: BLOG/Foundation/Math/latex.md
-              - 线性代数笔记: BLOG/Foundation/Math/linear.md
-              - 常用泰勒级数: BLOG/Foundation/Math/taylor.md
-              - 最大似然估计: BLOG/Foundation/Math/max-pr.md
-              - BLOG/Foundation/Math/sympy-det.md
-          - 物理:
-              - Gauss公式和Stokes公式: BLOG/Foundation/Physics/guass-stokes.md
-              - 电磁学期末复习: BLOG/Foundation/Physics/electromagnetics.md
           - 网络:
               - 知识点总结: BLOG/Network/learning.md
               - 专有名词速查: BLOG/Network/nouns.md
               - GraphQL Hasura: BLOG/Network/graphql.md
-          - 机器学习:
-              - 动手学深度学习笔记: BLOG/Deeplearning/d2l.md
-              - 语音识别笔记: BLOG/Deeplearning/speech-recognition.md
-              - 数据加载优化: BLOG/Deeplearning/parallel-load.md
-              - DDP:
-                  - DDP调研: BLOG/Deeplearning/ddp.md
-                  - ddp-note.py: BLOG/Deeplearning/ddp-note.md
-      - 其他:
-          - 视频信息初探: BLOG/Others/video-info.md
 
 # [Extensions]
 plugins:
@@ -137,6 +83,7 @@ plugins:
         - en
         - ja
   - tags # 给单篇文章添加标签 https://squidfunk.github.io/mkdocs-material/setup/setting-up-tags/?h=tags
+# []
 markdown_extensions:
   - pymdownx.arithmatex: # latex支持
       generic: true
@@ -151,6 +98,7 @@ markdown_extensions:
   - admonition # https://squidfunk.github.io/mkdocs-material/reference/admonitions/#inline-blocks
   - pymdownx.details # admonition需要
 
+# [JavaScript支持]
 extra_javascript:
   # latex支持
   # check https://squidfunk.github.io/mkdocs-material/reference/mathjax/?h=math for more information
@@ -158,6 +106,8 @@ extra_javascript:
   - mkdocs/javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js # https://cdn.bytedance.com/?query=mathjax&version=3.2.0
+
+# [css支持]
 extra_css:
   - mkdocs/css/no-footer.css # 不使用底部的翻页
   - mkdocs/css/unordered-list-symbols.css # multiplt unordered list symbols
