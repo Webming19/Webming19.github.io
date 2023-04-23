@@ -1,8 +1,9 @@
-# Publish a Website with Material for MkDocs and GitHub Pages
 
-template at 
+# 使用 `Material for MkDocs` 和 `GitHub Pages` 发布一个个人网站
 
-## mkdocs new
+举个栗子🌰
+
+## 新建mkdocs项目
 
 ```
 $ mkdocs new mkdocs-site
@@ -11,7 +12,7 @@ INFO     -  Writing config file: mkdocs-site/mkdocs.yml
 INFO     -  Writing initial docs: mkdocs-site/docs/index.md
 $ cd mkdocs-site
 ```
-
+文件目录
 ```
 $ tree -a
 .
@@ -20,7 +21,7 @@ $ tree -a
 └── mkdocs.yml
 ```
 
-## Add GitHub Workflow
+## 添加 GitHub Workflow
 
 ```
 $ mkdir .github
@@ -50,7 +51,7 @@ jobs: # 工作流的具体内容
       - run: pip install mkdocs-material # 使用pip包管理工具安装mkdocs-material
       - run: mkdocs gh-deploy --force # 使用mkdocs-material部署gh-pages分支
 ```
-
+文件目录
 ```
 $ tree -a
 .
@@ -63,9 +64,9 @@ $ tree -a
 └── mkdocs.yml
 ```
 
-## Git and GitHub
+## 使用 Git & GitHub
 
-### git init
+### git 初始化
 
 ```
 $ git init
@@ -73,7 +74,7 @@ $ git add .
 $ git commit -m "init"
 ```
 
-### GitHub - New Repository
+### GitHub - 新建仓库
 
 GitHub > New Repository
 
