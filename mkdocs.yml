@@ -51,11 +51,15 @@ extra:
 nav:
   - 博客:
       - BLOG/index.md
+      - 基础知识:
+          - 网络:
+              - 知识点总结: BLOG/Network/learning.md
+              - 专有名词速查: BLOG/Network/nouns.md
+              - GraphQL Hasura: BLOG/Network/graphql.md
       - Linux:
           - vim: BLOG/Linux/vim.md
           - tmux: BLOG/Linux/tmux.md
           - UNIX: BLOG/Linux/unix.md
-          - 内核编译: BLOG/Linux/kernel-compile.md
           - 连接树莓派: BLOG/Linux/pi-start.md
       - macOS:
           - 使用tree命令和访达进行任务管理: BLOG/macOS/tree.md
@@ -69,11 +73,13 @@ nav:
           - MkDocs静态网站构建: BLOG/Markdown/mkdocs-site.md
           - mdBook静态网站构建: BLOG/Markdown/mdbook-site.md
           - GitHub Pages简介: BLOG/Markdown/github-pages.md
-      - 基础:
-          - 网络:
-              - 知识点总结: BLOG/Network/learning.md
-              - 专有名词速查: BLOG/Network/nouns.md
-              - GraphQL Hasura: BLOG/Network/graphql.md
+  - 个人项目:
+      - PROJECT/index.md
+      - 前端架构:
+          - Vue: PROJECT/FrontEnd/vue.md
+          - React: PROJECT/FrontEnd/react.md
+      - 后端架构:
+          - Nest: PROJECT/BackEnd/nest.md
 
 # [Extensions]
 plugins:
@@ -81,7 +87,6 @@ plugins:
       # insider已经支持中文的分词搜索了 https://squidfunk.github.io/mkdocs-material/blog/2022/chinese-search-support/
       lang:
         - en
-        - ja
   - tags # 给单篇文章添加标签 https://squidfunk.github.io/mkdocs-material/setup/setting-up-tags/?h=tags
 # []
 markdown_extensions:
