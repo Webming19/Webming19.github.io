@@ -1,21 +1,24 @@
-# 欢迎来到我的网站
+# 欢迎来到我的网站-东观
 
-## 简单的测试
+## 何为东观
 
-关于mkdocs的命令：
+东观，是中国东汉宫廷中贮藏档案、典籍和从事校书、著述的处所。
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+借此命名本人的网站
 
-## 项目搭建
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## 个人简介
 
+### 前端开发
 
-```ts
-console.log('hello word');
-```
+〇 常用技术栈：
+
+- Vue3.2
+- Vue-Router
+- Pinia
+- Vite
+
+〇 涉猎技术栈：
+
+- React
+- Svelte
+- Nest
