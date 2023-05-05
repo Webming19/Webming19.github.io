@@ -4,8 +4,6 @@
 
 东观，是中国东汉宫廷中贮藏档案、典籍和从事校书、著述的处所。
 
-![DongGuan.png](http://hxd.angid.eu.org/static/img/DongGuan.png)
-
 借此命名本人的网站
 
 ## 个人简介
