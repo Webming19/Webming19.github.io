@@ -78,7 +78,7 @@ $ git commit -m "init"
 
 GitHub > New Repository
 
-GitHub > Repository > Settings > Actions > General > 
+GitHub > Repository > Settings > Actions > General >
 
 - Actions permissions: Allow all actions and reusable workflows
 - Workflow permissions: Read and write permissions

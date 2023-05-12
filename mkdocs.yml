@@ -51,8 +51,10 @@ extra:
 nav:
   - 博客📑:
       - BLOG/index.md
-      - 网站构建:
+      - 网站:
           - MkDocs静态网站构建: BLOG/Markdown/mkdocs-site.md
+      - 前端
+          - JS隐式类型转换: BLOG/FrontEnd/JS隐式类型转换.md
   - 项目🏗:
       - PROJECT/index.md
       - 前端架构:
