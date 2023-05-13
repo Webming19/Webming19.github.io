@@ -12,6 +12,7 @@ INFO     -  Writing config file: mkdocs-site/mkdocs.yml
 INFO     -  Writing initial docs: mkdocs-site/docs/index.md
 $ cd mkdocs-site
 ```
+
 文件目录
 ```
 $ tree -a
@@ -19,6 +20,12 @@ $ tree -a
 ├── docs
 │   └── index.md
 └── mkdocs.yml
+```
+
+本地启动项目
+
+```shell
+mkdocs serve
 ```
 
 ## 添加 GitHub Workflow
