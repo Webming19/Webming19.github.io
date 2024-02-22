@@ -59,7 +59,6 @@ nav:
       - PROJECT/index.md
       - 前端架构:
           - Vue: PROJECT/FrontEnd/vue.md
-          - React: PROJECT/FrontEnd/react.md
       - 后端架构:
           - Nest: PROJECT/BackEnd/nest.md
 
@@ -74,7 +73,6 @@ nav:
           - vim: Learn/Linux/vim.md
           - tmux: Learn/Linux/tmux.md
           - UNIX: Learn/Linux/unix.md
-          - 连接树莓派: Learn/Linux/pi-start.md
       - macOS:
           - 使用tree命令和访达进行任务管理: Learn/macOS/tree.md
           - 辅助功能缩放: Learn/macOS/zoom.md

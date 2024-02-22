@@ -1,5 +1,5 @@
 ---
-title: Vim学习笔记
+title: Vim 学习笔记
 ---
 
 # Vim学习笔记

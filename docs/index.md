@@ -8,17 +8,25 @@
 
 ## 个人简介
 
-### 前端开发
+### 高级前端工程师
 
 〇 常用技术栈：
 
-- Vue3.2
-- Vue-Router
-- Pinia
+- TypeScript
 - Vite
+- Vue
+- Vue Router
+- Pinia
+- Tailwind CSS
+- ...
 
 〇 涉猎技术栈：
 
-- React
 - Svelte
+- React
 - Nest
+- Rust
+
+## 我的简历
+
+- [Resume](https://website.ethanhan.eu.org/Resume/)
