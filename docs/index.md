@@ -8,23 +8,23 @@
 
 ## 个人简介
 
-### 高级前端工程师
+### 前端工程师
 
-〇 常用技术栈：
+〇 掌握内容：
 
 - TypeScript
-- Vite
 - Vue
 - Vue Router
 - Pinia
+- Vite
 - Tailwind CSS
 - ...
 
-〇 涉猎技术栈：
+〇 略有涉猎：
 
-- Svelte
 - React
 - Nest
+- Svelte
 - Rust
 
 ## 我的简历
