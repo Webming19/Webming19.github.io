@@ -29,4 +29,10 @@
 
 ## 我的简历
 
-- [Resume](https://website.ethanhan.eu.org/Resume/)
+- [Resume📃](https://website.ethanhan.eu.org/Resume/)
+
+## 图书馆
+
+收集体系知识用于个人学习
+
+[图书馆📚](https://website.ethanhan.eu.org/DongGuan/)
