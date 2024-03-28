@@ -70,6 +70,7 @@ nav:
               - 专有名词速查: Learn/Network/nouns.md
               - GraphQL Hasura: Learn/Network/graphql.md
       - Linux:
+          - Command: Learn/Linux/command.md
           - vim: Learn/Linux/vim.md
           - tmux: Learn/Linux/tmux.md
           - UNIX: Learn/Linux/unix.md

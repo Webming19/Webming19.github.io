@@ -163,7 +163,7 @@ title: Vim 学习笔记
 
 `:%s/<expr1>/<expr2>/g`
 
-## References
+## 参考
 
 [菜鸟教程｜vim](https://www.runoob.com/linux/linux-vim.html)
 
